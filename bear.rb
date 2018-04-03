@@ -10,4 +10,8 @@ class Bear
     fish_to_eat = river.collection_of_fish.pop()
      @stomach << fish_to_eat
   end
+
+  def bear_roars
+    return "Rooooar!"
+  end
 end
